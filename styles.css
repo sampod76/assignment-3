@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+body{
+    max-width:2534px;
+    font-family: 'Merriweather', serif;
+    margin: 0 auto;
+
+}
+section{
+    margin:20px 0px;
+
+}
+.word-cup-baner{
+
+    background-color: rgb(37, 30, 30);
+    width:1360px;
+    height:646px;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px auto;
+    padding:90px;
+    border-radius: 20px;
+    
+}
+
+.baner-left{
+    width:50%;
+}
+.baner-right{
+    width:50%;
+}
+.baner-right img{
+    width: 581px;
+    height: 100% ;
+}
+.baner-text h1{
+    font-size:70px;
+    font-weight:700;
+    line-height:80px;
+
+}
+.button{
+    color:white;
+    background-color: blueviolet;
+    padding:10px;
+    border-radius: 30px;
+    text-decoration:none;
+
+}
+
+/* plays and plays team */
+.watch-game{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.container{
+    margin: 0 auto;
+    width:1360px ;
+}
+.information-notice{
+    display:grid;
+    grid-template-rows:repeat(3, 0.2fr);
+    align-items: center;
+    border-radius:10px;
+    background-color: #272525;
+    width:312px;
+    height: 312px;
+    padding: 30px;
+    margin-left:20px;
+}
+.information{
+    padding: 17px; 
+}
+.information h1{
+ text-align: center;
+ padding:10px;
+ background-color: white;
+ border-radius: 10px ;
+}
+
+#blog{
+    background-color: rgb(139, 3, 3);
+    color: rgb(3, 27, 48);
+}
+
+.watch-team{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    grid-column-gap:20px;
+    grid-row-gap:20px;
+    
+}
+.watch-team-list{
+display: flex;
+flex-direction: column;
+    width: 312px;
+    height: 362px;
+    border-radius:15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.623);
+}
+
+.watch-team-img{
+    height:50%;
+}
+
+.watch-team-text{
+    height:50%;
+    padding:15px;
+    
+}
+.watch-team-img img{
+    height:179px;
+    width:312px;
+    border-radius:15px 15px 0 0 ;
+    
+}
+.transfer-button{
+    width:100px ;
+    height:32px;
+    border:2px solid black;
+   padding: 5px 15px;
+   margin: 5px 0 0 15px;
+   text-decoration: none;
+   color: rgb(255, 249, 249);
+   font-weight: bold;
+   border-radius:5px;
+   background-color: blueviolet;
+}
+
+.icon{
+    margin-top:10px;
+    display: flex;
+    
+    justify-content:flex-start;
+    /* align-items: center; */
+}
+
+/* footer section */
+footer{
+    margin-top:30px;
+    text-align: center;
+    background-color: #272525;
+    height:1600px;
+    height:444px;
+    color: white;
+}
+.footer-container{
+    padding:160px;
+}
+
+.footer-container>h1{
+    padding-bottom:50px;
+}
+.bottom-side{
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px;
+    opacity: 0.7;
+}
+
+hr{
+    border: 2px solid rgb(0, 0, 0);
+    height:  0;
+}
